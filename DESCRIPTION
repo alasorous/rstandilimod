@@ -1,0 +1,32 @@
+Package: rstandilimod
+Title: rstan compiled model for DILI prediction 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Alex",
+           family = "Godwood",
+           role = c("aut", "cre"),
+           email = "alex.godwood@soseiheptares.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: rstan compiled model for DILI prediction.
+License: GPL3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Biarch: true
+Depends: 
+    R (>= 3.5.0)
+Imports: 
+    methods,
+    Rcpp (>= 0.12.0),
+    RcppParallel (>= 5.0.1),
+    rstan (>= 2.18.1),
+    rstantools (>= 2.1.1)
+LinkingTo: 
+    BH (>= 1.66.0),
+    Rcpp (>= 0.12.0),
+    RcppEigen (>= 0.3.3.3.0),
+    RcppParallel (>= 5.0.1),
+    rstan (>= 2.18.1),
+    StanHeaders (>= 2.18.0)
+SystemRequirements: GNU make
